@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let item of items" (click)="onItemClick(item)">
+    <h1>{{item.title}}</h1>
+    <div>Description: {{item.description}}</div>
+    <div>Duration: {{item.duration}}</div>
+  </li>
+</ul>

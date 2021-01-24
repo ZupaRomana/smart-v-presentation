@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "smart-v-presentation"
+  "defaultProject": "smart-v-presentation",
+  "cli": {
+    "analytics": false
+  }
 }

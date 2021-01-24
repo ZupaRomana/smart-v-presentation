@@ -1,0 +1,6 @@
+<h2>All lessons:</h2>
+<h3>Total lessons: {{lessons.length}}</h3>
+
+<app-item-list [items]="lessons" (onItemClicked)="onLessonClick($event)"></app-item-list>
+<!--<app-item-list [items]="lessons$ | async" (onItemClicked)="onLessonClick($event)"></app-item-list>-->
+<app-item-list [items]="shortLessons"></app-item-list>
